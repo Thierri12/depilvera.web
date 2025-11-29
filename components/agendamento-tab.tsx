@@ -179,11 +179,11 @@ export default function AgendamentoTab() {
                 <th className="px-4 py-3 text-left font-medium text-muted-foreground">Cliente 1</th>
                 <th className="px-4 py-3 text-left font-medium text-muted-foreground">Serviços 1</th>
                 <th className="px-4 py-3 text-left font-medium text-muted-foreground">Total 1</th>
-                <th className="px-4 py-3 text-left font-medium text-muted-foreground">Pgto 1</th>
+                <th className="px-4 py-3 text-left font-medium text-muted-foreground">Pagamento 1</th>
                 <th className="px-4 py-3 text-left font-medium text-muted-foreground">Cliente 2</th>
                 <th className="px-4 py-3 text-left font-medium text-muted-foreground">Serviços 2</th>
                 <th className="px-4 py-3 text-left font-medium text-muted-foreground">Total 2</th>
-                <th className="px-4 py-3 text-left font-medium text-muted-foreground">Pgto 2</th>
+                <th className="px-4 py-3 text-left font-medium text-muted-foreground">Pagamento 2</th>
                 <th className="px-4 py-3 text-left font-medium text-muted-foreground">Ações</th>
               </tr>
             </thead>
