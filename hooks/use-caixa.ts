@@ -43,5 +43,9 @@ export function useCaixa() {
       .reduce((total, data) => total + caixa[data], 0)
   }
 
-  return { caixa, adicionarGanho, editarGanho, removerGanho, getTotalMes }
+  const getTotalDia = (dia: string): number => {
+    return caixa[dia] || 0
+  }
+
+  return { caixa, adicionarGanho, editarGanho, removerGanho, getTotalMes, getTotalDia }
 }
