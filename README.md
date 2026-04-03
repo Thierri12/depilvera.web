@@ -2,13 +2,12 @@
 
 # 💜 Depilvera Web
 
-**Site institucional da Depilvera — estética profissional, experiência suave.**
+**Site institucional da Depilvera — agendamentos, serviços e presença digital.**
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=nextdotjs)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-06B6D4?style=flat-square&logo=tailwindcss)](https://tailwindcss.com/)
-[![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-new--york-000?style=flat-square)](https://ui.shadcn.com/)
 
 </div>
 
@@ -16,54 +15,27 @@
 
 ## 📋 Sobre o Projeto
 
-Site oficial da **Depilvera**, desenvolvido com tecnologias modernas para oferecer uma experiência de navegação elegante e responsiva. A aplicação utiliza o ecossistema Next.js com componentes acessíveis do shadcn/ui e estilização com Tailwind CSS.
+A **Depilvera Web** é o site oficial da Depilvera, desenvolvido para apresentar os serviços, facilitar o agendamento de clientes e fortalecer a presença digital da marca. Construído com Next.js e componentes modernos, oferece uma experiência fluida e responsiva em qualquer dispositivo.
 
 ---
 
-## 🚀 Tecnologias
+## ✨ Funcionalidades
 
-| Tecnologia | Versão | Finalidade |
-|---|---|---|
-| **Next.js** | 16 | Framework principal (App Router) |
-| **React** | 19 | Biblioteca de UI |
-| **TypeScript** | 5 | Tipagem estática |
-| **Tailwind CSS** | 4 | Estilização utilitária |
-| **shadcn/ui** | New York | Componentes de interface |
-| **Radix UI** | latest | Primitivos de UI acessíveis |
-| **Lucide React** | 0.454 | Ícones |
-| **React Hook Form** | latest | Gerenciamento de formulários |
-| **Zod** | 3.25 | Validação de schemas |
-| **Recharts** | latest | Gráficos e visualizações |
-| **Vercel Analytics** | latest | Monitoramento de performance |
+- **Página de serviços** com apresentação visual dos tratamentos oferecidos
+- **Agendamento online** integrado à interface do site
+- **Design responsivo** adaptado para mobile, tablet e desktop
+- **Tema e identidade visual** consistentes com a marca Depilvera
+- **Componentes acessíveis** baseados em Radix UI e shadcn/ui
+- **Analytics integrado** via Vercel para monitoramento de acessos
 
 ---
 
-## 📁 Estrutura do Projeto
-
-```
-depilvera-web/
-├── app/                    # App Router do Next.js (rotas e páginas)
-├── components/             # Componentes reutilizáveis
-│   └── ui/                 # Componentes shadcn/ui
-├── hooks/                  # Custom hooks React
-├── styles/                 # Estilos globais
-├── public/                 # Arquivos estáticos (imagens, fontes)
-├── components.json         # Configuração shadcn/ui
-├── next-env.d.ts           # Tipos do Next.js
-├── tsconfig.json           # Configuração TypeScript
-├── postcss.config.mjs      # Configuração PostCSS
-├── package.json            # Dependências e scripts
-└── server.js               # Servidor Express auxiliar
-```
-
----
-
-## ⚙️ Como Rodar o Projeto
+## 🚀 Como Rodar o Projeto
 
 ### Pré-requisitos
 
 - [Node.js](https://nodejs.org/) 18 ou superior
-- [npm](https://www.npmjs.com/) ou [pnpm](https://pnpm.io/)
+- [pnpm](https://pnpm.io/) (recomendado) ou npm
 
 ### Instalação
 
@@ -73,15 +45,13 @@ git clone https://github.com/Thierri12/depilvera.web.git
 cd depilvera.web
 
 # Instale as dependências
-npm install
-# ou
 pnpm install
 ```
 
 ### Desenvolvimento
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 Acesse [http://localhost:3000](http://localhost:3000) no seu navegador.
@@ -89,9 +59,38 @@ Acesse [http://localhost:3000](http://localhost:3000) no seu navegador.
 ### Build para Produção
 
 ```bash
-npm run build
-npm start
+pnpm build
+pnpm start
 ```
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+depilvera-web/
+├── app/              # Rotas e páginas (Next.js App Router)
+├── components/       # Componentes reutilizáveis
+│   └── ui/           # Componentes shadcn/ui
+├── hooks/            # Custom hooks React
+├── styles/           # Estilos globais
+├── public/           # Imagens e arquivos estáticos
+├── components.json   # Configuração shadcn/ui
+├── tsconfig.json     # Configuração TypeScript
+└── package.json      # Dependências e scripts
+```
+
+---
+
+## 🌐 Tecnologias
+
+| Tecnologia | Uso |
+|---|---|
+| **Next.js 16** | Framework principal com App Router |
+| **React 19** | Biblioteca de interface |
+| **TypeScript** | Tipagem estática |
+| **Tailwind CSS 4** | Estilização utilitária |
+| **shadcn/ui** | Componentes de interface acessíveis |
 
 ---
 
@@ -99,16 +98,16 @@ npm start
 
 | Comando | Descrição |
 |---|---|
-| `npm run dev` | Inicia o servidor de desenvolvimento |
-| `npm run build` | Gera o build de produção |
-| `npm start` | Inicia o servidor de produção |
-| `npm run lint` | Verifica problemas de código com ESLint |
+| `pnpm dev` | Inicia o servidor de desenvolvimento |
+| `pnpm build` | Gera o build de produção |
+| `pnpm start` | Inicia o servidor de produção |
+| `pnpm lint` | Verifica problemas de código com ESLint |
 
 ---
 
-## 🌐 Deploy
+## 🌍 Deploy
 
-Este projeto está configurado para deploy na **Vercel**. Basta conectar o repositório GitHub à Vercel e o deploy ocorre automaticamente a cada push na branch principal.
+Projeto configurado para deploy na **Vercel**. Cada push na branch principal dispara um novo deploy automaticamente.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Thierri12/depilvera.web)
 
