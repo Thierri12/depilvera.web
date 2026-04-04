@@ -234,7 +234,6 @@ export default function AgendamentoTab() {
           </div>
         </div>
 
-        {/* Desktop Table View */}
         <div className="hidden overflow-x-auto lg:block">
           <table className="w-full text-sm">
             <thead>
@@ -300,7 +299,6 @@ export default function AgendamentoTab() {
           </table>
         </div>
 
-        {/* Mobile Card View */}
         <div className="space-y-3 lg:hidden">
           {horariosFixos.map((h) => {
             const ags = agsDia[h] || []

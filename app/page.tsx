@@ -13,7 +13,7 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
+
       <header className="border-b border-border bg-card">
         <div className="container mx-auto px-3 py-3 sm:px-4 sm:py-6">
           <div className="flex items-center justify-between gap-2">
@@ -43,7 +43,6 @@ export default function HomePage() {
         </div>
       </header>
 
-      {/* Navigation Tabs */}
       <div className="border-b border-border bg-card">
         <div className="container mx-auto px-2 sm:px-4">
           <nav className="flex gap-0 sm:gap-1">
@@ -87,14 +86,12 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Main Content */}
       <main className="container mx-auto px-3 py-4 sm:px-4 sm:py-8">
         {activeTab === "agendamentos" && <AgendamentoTab />}
         {activeTab === "caixa" && <CaixaTab />}
         {activeTab === "servicos" && <ServicosTab />}
       </main>
 
-      {/* Footer */}
       <footer className="mt-8 border-t border-border bg-card py-4 sm:mt-16 sm:py-6">
         <div className="container mx-auto px-3 text-center text-xs text-muted-foreground sm:px-4 sm:text-sm">
           © 2025 Vera Depil. Todos os direitos reservados.
