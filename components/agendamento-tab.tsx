@@ -347,16 +347,15 @@ export default function AgendamentoTab() {
             const agsFiltrados = ags.filter((ag) => deveExibirAgendamento(ag.servicos))
             return agsFiltrados.length === 0
           }) && (
-            <p className="py-8 text-center text-sm text-muted-foreground">
-              {`Nenhum agendamento de ${
-                filtroAgenda === "depilacao"
-                  ? "depilação"
-                  : filtroAgenda === "manicure"
-                    ? "manicure/pedicure"
-                    : "outros serviços"
-              } para esta data`}
-            </p>
-          )}
+              <p className="py-8 text-center text-sm text-muted-foreground">
+                {`Nenhum agendamento de ${filtroAgenda === "depilacao"
+                    ? "depilação"
+                    : filtroAgenda === "manicure"
+                      ? "manicure/pedicure"
+                      : "outros serviços"
+                  } para esta data`}
+              </p>
+            )}
         </div>
       </Card>
     </div>

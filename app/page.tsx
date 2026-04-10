@@ -48,11 +48,10 @@ export default function HomePage() {
           <nav className="flex gap-0 sm:gap-1">
             <button
               onClick={() => setActiveTab("agendamentos")}
-              className={`flex flex-1 items-center justify-center gap-1 px-2 py-3 text-xs font-medium transition-colors sm:flex-initial sm:gap-2 sm:px-6 sm:py-4 sm:text-sm ${
-                activeTab === "agendamentos"
+              className={`flex flex-1 items-center justify-center gap-1 px-2 py-3 text-xs font-medium transition-colors sm:flex-initial sm:gap-2 sm:px-6 sm:py-4 sm:text-sm ${activeTab === "agendamentos"
                   ? "border-b-2 border-primary text-primary"
                   : "text-muted-foreground hover:text-foreground"
-              }`}
+                }`}
             >
               <Calendar className="h-4 w-4" />
               <span className="hidden sm:inline">Agendamentos</span>
@@ -60,11 +59,10 @@ export default function HomePage() {
             </button>
             <button
               onClick={() => setActiveTab("caixa")}
-              className={`flex flex-1 items-center justify-center gap-1 px-2 py-3 text-xs font-medium transition-colors sm:flex-initial sm:gap-2 sm:px-6 sm:py-4 sm:text-sm ${
-                activeTab === "caixa"
+              className={`flex flex-1 items-center justify-center gap-1 px-2 py-3 text-xs font-medium transition-colors sm:flex-initial sm:gap-2 sm:px-6 sm:py-4 sm:text-sm ${activeTab === "caixa"
                   ? "border-b-2 border-primary text-primary"
                   : "text-muted-foreground hover:text-foreground"
-              }`}
+                }`}
             >
               <DollarSign className="h-4 w-4" />
               <span className="hidden sm:inline">Controle de Caixa</span>
@@ -72,11 +70,10 @@ export default function HomePage() {
             </button>
             <button
               onClick={() => setActiveTab("servicos")}
-              className={`flex flex-1 items-center justify-center gap-1 px-2 py-3 text-xs font-medium transition-colors sm:flex-initial sm:gap-2 sm:px-6 sm:py-4 sm:text-sm ${
-                activeTab === "servicos"
+              className={`flex flex-1 items-center justify-center gap-1 px-2 py-3 text-xs font-medium transition-colors sm:flex-initial sm:gap-2 sm:px-6 sm:py-4 sm:text-sm ${activeTab === "servicos"
                   ? "border-b-2 border-primary text-primary"
                   : "text-muted-foreground hover:text-foreground"
-              }`}
+                }`}
             >
               <Settings className="h-4 w-4" />
               <span className="hidden sm:inline">Gerenciar Serviços</span>

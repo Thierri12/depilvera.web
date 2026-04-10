@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "Vera Depil - Sistema de Gestão",
   description: "Sistema de agendamento e controle de caixa para salão de depilação",
   generator: "v0.app",
-  icons: { 
+  icons: {
     icon: "/favicon.ico",
   },
 }
