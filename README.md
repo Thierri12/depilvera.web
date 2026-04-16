@@ -14,7 +14,7 @@
 
 ## 📋 Sobre o Projeto
 
-A **Depilvera Web** é o site oficial da Depilvera, desenvolvido para apresentar os serviços, facilitar o agendamento de clientes e fortalecer a presença digital da marca. Construído com Next.js e componentes modernos, oferece uma experiência fluida e responsiva em qualquer dispositivo.
+A **Depilvera Web** é um sistema para funcionários, desenvolvido para apresentar os serviços, facilitar o agendamento de clientes e controle financeiro. Construído com Next.js e componentes modernos, oferece uma experiência fluida e responsiva em qualquer dispositivo.
 
 
 ## ✨ Funcionalidades
@@ -103,11 +103,6 @@ depilvera-web/
 Projeto configurado para deploy na **Vercel**. Cada push na branch principal dispara um novo deploy automaticamente.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Thierri12/depilvera.web)
-
-
-## 📄 Licença
-
-Distribuído sob a licença **ISC**. Veja o arquivo `LICENSE` para mais detalhes.
 
 
 <div align="center">
