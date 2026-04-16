@@ -11,13 +11,11 @@
 
 </div>
 
----
 
 ## 📋 Sobre o Projeto
 
 A **Depilvera Web** é o site oficial da Depilvera, desenvolvido para apresentar os serviços, facilitar o agendamento de clientes e fortalecer a presença digital da marca. Construído com Next.js e componentes modernos, oferece uma experiência fluida e responsiva em qualquer dispositivo.
 
----
 
 ## ✨ Funcionalidades
 
@@ -28,7 +26,6 @@ A **Depilvera Web** é o site oficial da Depilvera, desenvolvido para apresentar
 - **Componentes acessíveis** baseados em Radix UI e shadcn/ui
 - **Analytics integrado** via Vercel para monitoramento de acessos
 
----
 
 ## 🚀 Como Rodar o Projeto
 
@@ -63,7 +60,6 @@ pnpm build
 pnpm start
 ```
 
----
 
 ## 📁 Estrutura do Projeto
 
@@ -80,7 +76,6 @@ depilvera-web/
 └── package.json      # Dependências e scripts
 ```
 
----
 
 ## 🌐 Tecnologias
 
@@ -92,7 +87,6 @@ depilvera-web/
 | **Tailwind CSS 4** | Estilização utilitária |
 | **shadcn/ui** | Componentes de interface acessíveis |
 
----
 
 ## 📜 Scripts Disponíveis
 
@@ -103,7 +97,6 @@ depilvera-web/
 | `pnpm start` | Inicia o servidor de produção |
 | `pnpm lint` | Verifica problemas de código com ESLint |
 
----
 
 ## 🌍 Deploy
 
@@ -111,13 +104,11 @@ Projeto configurado para deploy na **Vercel**. Cada push na branch principal dis
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Thierri12/depilvera.web)
 
----
 
 ## 📄 Licença
 
 Distribuído sob a licença **ISC**. Veja o arquivo `LICENSE` para mais detalhes.
 
----
 
 <div align="center">
   Feito com 💜 para a <strong>Depilvera</strong>
